@@ -1,0 +1,8 @@
+{
+    "private": "true",
+    "workspaces": [
+      "packages/*",
+      "demo"
+    ],
+    "packageManager": "pnpm@6.32.12"
+  }

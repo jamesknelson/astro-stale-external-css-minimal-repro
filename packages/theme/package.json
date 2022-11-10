@@ -1,0 +1,16 @@
+{
+    "name": "theme",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Theme",
+    "type": "module",
+    "exports": {
+      "./components/": "./components/"
+    },
+    "peerDependencies": {
+      "astro": ">=1.6.5"
+    },
+    "engines": {
+      "node": "^14.15.0 || >=16.0.0"
+    }
+  }
