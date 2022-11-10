@@ -18,9 +18,9 @@ cd demo
 pnpm run dev
 ```
 
-However, the styles break after modifying Layout.astro:
+However, the styles break after modifying `packages/theme/components/Layout.astro`:
 
-- If the styles are modified (e.g. changing one of the background colors), then the changes are not reflected in the app
+- If the contents of the `<style>` tag are modified (e.g. changing one of the background colors), then the changes are not reflected in the app
 - If the markup is modified, *all scoped styles* will no longer be displayed
 
 Upon some investigation:
